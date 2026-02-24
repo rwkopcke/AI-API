@@ -1,0 +1,9 @@
+[project]
+name = "chron-scrape-with-chatgpt"
+version = "0.1.0"
+description = "Show the basic integration of ChatGPT in Py scripts"
+readme = "README.md"
+requires-python = ">=3.12.4"
+dependencies = [
+    "openai>=2.21.0",
+]
