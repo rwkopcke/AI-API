@@ -30,39 +30,73 @@ H. `pretty-markdown-viewer.html` - converts .txt files to webarchives
     - webarchive can be opened as a pretty webpage by a browser
 
 
-## II. `main_chat_gub.py`
+## II. Prompts
+
+### A. `main_chat_gub.py`
 Fetch candidates, parties, top 5 issues, and websites for all candidates
 https://github.com/openai/openai-python for the API
 
-1.Who are the candidates running for governor of the US State of Maine in 2026? Create a table in markdown format 
-with 4 columns and a row for each candidate. The 4 columns for each candidate should be labeled: 
-"name", "party affiliation", "top 5 issues", "web sites".
-In each row, separate the entries for the 4 columns with the "|" symbol.
-For the "name" column of the markdown output table:
-The content input csv file shows an initial list of candidates. There might be more candidates. Scrape the web sites 
-of the Portland Press Herald to find any other candidates who do not appear in the content input csv file. 
-Also, scrape the web sites of the Portland Press Herald to find the names of candidates who have withdrawn 
-from running for governor.
-For the "party affiliation" column of the markdown output table: 
-The second column of the content input csv file shows the candidate's party affiliation. 
-If this information is not available in the input csv file, inspect the candidate's home web page shown in the 
-content input csv file to extract the candidate's party affiliation. If the home web page is not available in the 
-input csv file, search the web for the candidate's home web page and extract the candidate's party affiliation.
-For the "top 5 issues" column of the markdown output table:
-Extract the top 5 issues for each candidate by reading the content of the candidate's statement shown in the 
-content csv input file, by reading the content of the candidate's home web page, by reading the content 
-of the web addresses shown in the websites column of the content input csv file, and by reading the content of 
-relevant Portland Press Herald profiles and articles that you find by searching the web.
-For the "web sites" column of the markdown output table:
-For each candidate, show a list of web addresses that contains the web address for the candidate's homepage followed 
-by other web addresses that show the candidate's top 5 issues.
+```
+Who are the candidates running for governor of the US State of Maine in 2026? Create a table in markdown format 
+    with 4 columns and a row for each candidate. The 4 columns for each candidate should be labeled: 
+    "name", "party affiliation", "top 5 issues", "web sites".
+    In each row, separate the entries for the 4 columns with the "|" symbol.
+        
+    For the "name" column of the markdown output table:
+    The content input csv file shows an initial list of candidates. There might be more candidates. Scrape the web sites 
+    of the Portland Press Herald to find any other candidates who do not appear in the content input csv file. 
+    Also, scrape the web sites of the Portland Press Herald to find the names of candidates who have withdrawn 
+    from running for governor.
+        
+    For the "party affiliation" column of the markdown output table: 
+    The second column of the content input csv file shows the candidate's party affiliation. 
+    If this information is not available in the input csv file, inspect the candidate's home web page shown in the 
+    content input csv file to extract the candidate's party affiliation. If the home web page is not available in the 
+    input csv file, search the web for the candidate's home web page and extract the candidate's party affiliation.
+        
+    For the "top 5 issues" column of the markdown output table:
+    Extract the top 5 issues for each candidate by reading the content of the candidate's statement shown in the 
+    content csv input file, by reading the content of the candidate's home web page, by reading the content 
+    of the web addresses shown in the websites column of the content input csv file, and by reading the content of 
+    relevant Portland Press Herald profiles and articles that you find by searching the web.
+        
+    For the "web sites" column of the markdown output table:
+    For each candidate, show a list of web addresses that contains the web address for the candidate's homepage followed 
+    by other web addresses that show the candidate's top 5 issues.
+```
 
 
-## II. `main_gemini_sp.py`
+### B. `main_gemini_sp.py`
 Fetch analysts' consensus bottom-up projections of quarterly earnings for the S&P indexes:
 1. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly reported earnings per share or analysts' current consensus bottom-up projections of quarterly reported earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly reported per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
 2. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly operating earnings per share or analysts' current consensus bottom-up projections of quarterly operating earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly operating earnings per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
 3. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly revenues per share or analysts' current consensus bottom-up projections of quarterly revenues per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly revenues for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
+
+### C. `main_chat_trieste.py` `main_gemini_trieste.py`
+```
+I am a tourist traveling to Trieste, Italy for the first time. Please make 3 tables.
+    The first table should show hotels. 
+    Each hotel's information should appear in a separate row of the the table, and the table should have 11 columns that show: 
+    name; address; rating; typical room daily rate in US dollars; proximity to Trieste center in miles; 
+    if member of a hotel group name of group brand; prominent nearby attractions; exposure to noise; has free wifi yes or no; 
+    has free breakfast yes or no; has restaurant yes or no. 
+    This first table should show only the top 12 hotels, and should order these top 12 hotels, 
+    from the highest rated in the first row to the lowest rated in the last row. 
+    The second table should show important attractions near the Trieste. 
+    Each attraction's details should appear in a separate row of the table, and the table should have 6 columns that show: 
+    name, importance of attraction, distance from Trieste center in miles; 
+    home web site for the attraction. description of attraction, names of nearby restaurants. 
+    The second table should order the attractions, from the most important attraction in the first row to the least important in the last row. 
+    The third table should show highly-rated restaurants near Trieste. 
+    Each restaurant's details should appear in a separate row of the table, and the table should have 7 columns that show: 
+    name, address, home web site, rating of the restaurant, description of cuisine, distance from Trieste center in miles; 
+    names of nearby attractions. The table should order the restaurants, from the highest rating in the first row to the lowest rating in the last row. 
+    The user's uploaded Trieste_travel_sites.txt file contains a list of web sites to include in your search. 
+    Please show these sites explicitly in your sources listed in your response, if you used information from these sites. 
+    Please search additional relevant websites. Please show the web addresses of all sources that you used to make each table.
+    Please format your entire response using markdown.
+```
+
 
 ### III. TIPS and Extensions
 #### A. tutorial for using chatgpt
