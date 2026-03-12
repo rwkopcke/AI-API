@@ -1,27 +1,68 @@
 # Python Prompt AI APIs
 
 ## I. Entry scripts
-- `main_chatgpt.py` - explore
-    - https://developers.openai.com/api/docs
+A. `main_chatgpt.py` - explore
+    - https://developers.openai.com/api/docs (API pull-down menu at top of window)
     - https://python.useinstructor.com/integrations/openai-responses/
     - https://github.com/Jaimboh/OpenAI-Responses-API/blob/main/06-web-search.py
     - https://medium.com/@odhitom09/openai-responses-api-a-comprehensive-guide-ad546132b2ed
 
-- `main_chat_gub.py` - working script
-- `main_gemini` - explore
-- `main_gemini_sp.py` - working script
+B. `main_chat_gub.py` - working script
+C. `main_chat_gub_report.py` - makes response more readable
+
+D. `main_chat_trieste.py` - working script
+
+E. `main_gemini` - explore
+    - https://ai.google.dev/gemini-api/docs/quickstart
+    - https://ai.google.dev/gemini-api/docs
+    - https://ai.google.dev/gemini-api/docs/tools
+    - https://ai.google.dev/gemini-api/docs/langgraph-exampl
+    - gemini api how to provided input file to a request
+
+F. `main_gemini_sp.py` - working script
+
+G. `main_gemini_trieste.py` - working script 
+
+H. `pretty-markdown-viewer.html` - converts .txt files to webarchives
+    - open this file with a browser
+    - open the `response.txt` file from AI from the resulting web page
+    - converts response to a webarchive and saves it
+    - webarchive can be opened as a pretty webpage by a browser
 
 
 ## II. `main_chat_gub.py`
 Fetch candidates, parties, top 5 issues, and websites for all candidates
 https://github.com/openai/openai-python for the API
 
+1.Who are the candidates running for governor of the US State of Maine in 2026? Create a table in markdown format 
+with 4 columns and a row for each candidate. The 4 columns for each candidate should be labeled: 
+"name", "party affiliation", "top 5 issues", "web sites".
+In each row, separate the entries for the 4 columns with the "|" symbol.
+For the "name" column of the markdown output table:
+The content input csv file shows an initial list of candidates. There might be more candidates. Scrape the web sites 
+of the Portland Press Herald to find any other candidates who do not appear in the content input csv file. 
+Also, scrape the web sites of the Portland Press Herald to find the names of candidates who have withdrawn 
+from running for governor.
+For the "party affiliation" column of the markdown output table: 
+The second column of the content input csv file shows the candidate's party affiliation. 
+If this information is not available in the input csv file, inspect the candidate's home web page shown in the 
+content input csv file to extract the candidate's party affiliation. If the home web page is not available in the 
+input csv file, search the web for the candidate's home web page and extract the candidate's party affiliation.
+For the "top 5 issues" column of the markdown output table:
+Extract the top 5 issues for each candidate by reading the content of the candidate's statement shown in the 
+content csv input file, by reading the content of the candidate's home web page, by reading the content 
+of the web addresses shown in the websites column of the content input csv file, and by reading the content of 
+relevant Portland Press Herald profiles and articles that you find by searching the web.
+For the "web sites" column of the markdown output table:
+For each candidate, show a list of web addresses that contains the web address for the candidate's homepage followed 
+by other web addresses that show the candidate's top 5 issues.
+
 
 ## II. `main_gemini_sp.py`
 Fetch analysts' consensus bottom-up projections of quarterly earnings for the S&P indexes:
-1. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly reported earnings per share or analysts' current consensus bottom-up projections of quarterly reported earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly reported per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027.
-2. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly operating earnings per share or analysts' current consensus bottom-up projections of quarterly operating earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly operating earnings per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027.
-3. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly revenues per share or analysts' current consensus bottom-up projections of quarterly revenues per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly revenues for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027.
+1. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly reported earnings per share or analysts' current consensus bottom-up projections of quarterly reported earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly reported per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
+2. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly operating earnings per share or analysts' current consensus bottom-up projections of quarterly operating earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly operating earnings per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
+3. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly revenues per share or analysts' current consensus bottom-up projections of quarterly revenues per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly revenues for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
 
 ### III. TIPS and Extensions
 #### A. tutorial for using chatgpt
@@ -51,7 +92,11 @@ https://realpython.com/chatgpt-api-python/
     - https://projectpy.com/building-a-python-guide-for-text-generation-with/
     - ...
 
-#### E. crontab
+#### E. format responses
+    - see I.G. above
+    - TODO: experiment with other formats for AI's response files
+
+#### F. crontab
 1. spaces in crontab
     - separate *, 2, *, *, and *
     - separate a, b, c, and d
@@ -69,7 +114,7 @@ https://realpython.com/chatgpt-api-python/
     - second, any args `brew` requires
 5. If upgrade fails (e.g. permission for ghostscript), run `brew doctor`
 
-#### F. web addresses
+#### G. web addresses
 1. FactSet Earnings Insight Report
     - https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_021326.pdf
     - https://insight.factset.com

@@ -1,0 +1,89 @@
+Below are three requested tables for first-time visitors to Trieste. I used Piazza Unità d’Italia as “Trieste center” for distances. Typical daily rates are approximate (base double room, standard refundable rate, mid-season) and can vary with date and availability.
+
+Table 1 — Top 12 hotels in Trieste (highest rated first)
+
+| Name | Address | Rating (source) | Typical room daily rate (USD) | Proximity to Trieste center (mi) | Hotel group/brand | Prominent nearby attractions | Exposure to noise | Free Wi‑Fi | Free breakfast | On‑site restaurant |
+|---|---|---:|---:|---:|---|---|---|---|---|---|
+| You.Me Design Place Hotel | Via Giuseppe Mazzini 3, 34121 | 9.2/10 (Booking) | 160–300 | 0.2 | Independent | Piazza Unità, Canal Grande, Molo Audace | Medium‑low (central but side street) | Yes | No (rate‑dependent) | No |
+| Savoia Excelsior Palace – Starhotels Collezione | Riva del Mandracchio 4, 34124 | 9.2/10 (Booking) | 180–350 | 0.1 | Starhotels Collezione | Piazza Unità, Molo Audace, Museo Revoltella | Medium (waterfront events) | Yes | No (rate‑dependent) | Yes |
+| Urban Hotel Design | Via Punta del Forno 3, 34121 | 9.2/10 (Booking) | 140–230 | 0.2 | Independent | Roman Theatre, Piazza Unità, Arco di Riccardo | Medium (old town nightlife) | Yes | No (rate‑dependent) | No |
+| Hotel Miramare – Adults Only con Private Spa | Viale Miramare 325/4, 34136 | 9.1/10 (Booking) | 140–260 | 4.5 | Independent | Miramare Castle & Park, Barcola promenade | Low–medium (coastal road) | Yes | No (rate‑dependent) | Yes |
+| DoubleTree by Hilton Trieste | Piazza della Repubblica 1, 34122 | 9.0/10 (Booking) | 170–300 | 0.4 | Hilton (DoubleTree) | Piazza Unità, Canal Grande | Medium‑low (city center) | Yes | No (rate‑dependent) | Yes |
+| Hotel Riviera & Maximilian’s | Strada Costiera 22, 34010 | 9.0/10 (Booking) | 180–320 | 5.5 | Independent | Miramare Castle & Park, Grignano Bay | Low (clifftop setting) | Yes | No (rate‑dependent) | Yes |
+| Victoria Hotel Letterario | Via Alfredo Oriani 2, 34131 | 8.9/10 (Booking) | 140–250 | 0.6 | Independent | San Giusto Castle & Cathedral, Canal Grande | Low (inland residential) | Yes | No (rate‑dependent) | Yes |
+| Hotel Continentale | Via San Nicolò 25, 34121 | 8.8/10 (Booking) | 130–220 | 0.3 | Independent | Piazza della Borsa, Canal Grande | Medium (central pedestrian zone) | Yes | No (rate‑dependent) | Yes |
+| The Modernist Hotel | Corso Italia 12, 34121 | 8.7/10 (Booking) | 130–220 | 0.3 | Independent | Piazza Unità, Canal Grande | Medium (central avenue) | Yes | No (rate‑dependent) | Yes (bistro/bar) |
+| Forvm Boutique Hotel | Via Valdirivo 30, 34132 | 8.7/10 (Booking) | 120–200 | 0.4 | Independent | Canal Grande, Piazza Unità | Medium (near Canal Grande) | Yes | No (rate‑dependent) | No |
+| Hotel James Joyce | Via dei Cavazzeni 7, 34121 | 8.7/10 (Booking) | 120–180 | 0.2 | Independent | Città Vecchia, Roman Theatre, Piazza Unità | Medium–high (Cavana nightlife) | Yes | Yes (often included) | No |
+| NH Trieste | Corso Cavour 7, 34132 | 8.5/10 (Booking) | 120–220 | 0.4 | NH Hotels | Canal Grande, Old Port (Porto Vecchio) | Medium (near station/traffic) | Yes | No (rate‑dependent) | Yes |
+
+Sources (Table 1)
+- Ratings and addresses:
+  - You.Me Design Place Hotel (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/filoxenia.html))
+  - Savoia Excelsior Palace (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/savoiaexceslsior.html))
+  - Urban Hotel Design (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/urban-design.html))
+  - Hotel Miramare – Adults Only (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/miramare-trieste.html))
+  - DoubleTree by Hilton Trieste (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/doubletree-by-hilton-trieste.html))
+  - Hotel Riviera & Maximilian’s (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/riviera-maximilian-s.html))
+  - Victoria Hotel Letterario (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/victoria-trieste.html))
+  - Hotel Continentale (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/hotelcontinentaletrieste.it.html?utm_source=openai))
+  - The Modernist Hotel (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/the-modernist.html?utm_source=openai))
+  - Forvm Boutique Hotel (Booking reviews page). ([booking.com](https://www.booking.com/reviews/it/hotel/forvm-boutique.html))
+  - Hotel James Joyce (Booking reviews page; official site for amenities). ([booking.com](https://www.booking.com/reviews/it/hotel/james-joyce.html?utm_source=openai))
+  - NH Trieste (Booking page and reviews). ([booking.com](https://www.booking.com/hotel/it/jollytrieste.html?utm_source=openai))
+- Brand/amenities confirmation:
+  - DoubleTree official page (Hilton). ([hilton.com](https://www.hilton.com/en/hotels/trsdtdi-doubletree-trieste/?utm_source=openai))
+  - Savoia Excelsior Palace press kit (Starhotels). ([starhotels.com](https://www.starhotels.com/assets/uploads/home/press-room/en-cartelle-stampa-hotel/press-kit-2025/savoia-excelsior-palace-trieste-starhotels-collezione-press-kit-eng-duplicate-duplicate-duplicate-duplicate-duplicate-duplicate-duplicate-duplicate.pdf?utm_source=openai))
+
+Note: “Typical room daily rate (USD)” is an approximate mid‑season range derived from publicly listed rates on Booking/hotel sites for 2025–2026; breakfast inclusion depends on the rate plan.
+
+Table 2 — Important attractions in/around Trieste (most important first)
+
+| Name | Why it’s important | Distance from center (mi) | Official/home website | Description | Nearby restaurants |
+|---|---|---:|---|---|---|
+| Piazza Unità d’Italia | Iconic sea‑facing main square; Trieste’s civic heart | 0.0 | Regional tourism page | Monumental Habsburg‑era square opening to the Adriatic; events and cafés ring the plaza. ([turismofvg.it](https://www.turismofvg.it/en/109141/Piazza-Unita-and-Audace-Pier?utm_source=openai)) | Caffè degli Specchi; Harry’s Piccolo/Bistrò; Buffet da Pepi. ([guide.michelin.com](https://guide.michelin.com/sg/en/friuli-venezia-giulia/trieste/restaurant/harry-s-piccolo?utm_source=openai)) |
+| Miramare Castle & Park | Top palace/museum and landscaped park | 4.8 | Official museum site (tickets) | 19th‑century clifftop residence of Archduke Maximilian with richly furnished interiors and vast seaside park. ([miramare.cultura.gov.it](https://miramare.cultura.gov.it/en/tickets/?utm_source=openai)) | Hotel Riviera & Maximilian’s restaurant; eateries in Grignano. ([booking.com](https://www.booking.com/reviews/it/hotel/riviera-maximilian-s.html)) |
+| San Giusto Castle & Cathedral | City symbol; hilltop fortress and church | 0.4 | Official castle site | Medieval bastions, armory museum and sweeping gulf views; cathedral adjacent. ([castellodisangiustotrieste.it](https://castellodisangiustotrieste.it/?utm_source=openai)) |
+| Grotta Gigante (Giant Cave) | One of the world’s largest show‑cave chambers | 5.8 | Official cave site | Guided tours descend into a record‑scale karst cavern in the Carso above Trieste. ([grottagigante.it](https://www.grottagigante.it/en/home/?utm_source=openai)) |
+| Canal Grande (Grand Canal) | Photogenic canal and café quarter | 0.3 | Background (Wikipedia) | Borgo Teresiano’s canal lined with cafés and bridges, near the Serbian Orthodox church. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Canal_Grande_%28Trieste%29?utm_source=openai)) |
+| Molo Audace (Audace Pier) | Signature promenade pier into the gulf | 0.2 | City info page | 18th‑century pier, renamed for the destroyer “Audace”; classic sunset walk. ([trieste.in](https://www.trieste.in/trieste/what-to-see/details/molo-audace?utm_source=openai)) |
+| Museo Revoltella (Modern Art Museum) | Major modern art collection | 0.4 | Official museum site (EN) | 19th‑century palace + galleries with Italian and Central‑European modern art. ([museorevoltella.it](https://museorevoltella.it/english/?utm_source=openai)) |
+| Roman Theatre | Roman‑era amphitheatre remains in city center | 0.3 | Lonely Planet POI | Excavated 1st–2nd century theatre beneath San Giusto hill. ([lonelyplanet.com](https://www.lonelyplanet.com/points-of-interest/roman-theatre/1138860?utm_source=openai)) |
+| Risiera di San Sabba (Memorial Museum) | WWII Nazi detention/extermination site and national monument | 3.0 | Official site (museum) | Sole Nazi camp in Italy with crematorium remains; sobering museum and memorial. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Risiera_di_San_Sabba?utm_source=openai)) |
+| Barcola waterfront | Local “riviera” promenade and bathing platforms | 2.2 | FVG accessibility/tourism page | Favorite seaside walk and swim area between city and Miramare. ([friuliveneziagiuliapertutti.it](https://friuliveneziagiuliapertutti.it/en/dove-andare/mare/miramare-castello/?utm_source=openai)) |
+| Arco di Riccardo (Roman Arch) | Roman triumphal arch amid Old Town lanes | 0.3 | Background (Wikipedia) | Compact Roman arch embedded in medieval fabric of Città Vecchia. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Arco_di_Riccardo?utm_source=openai)) |
+| Val Rosandra Nature Reserve | Dramatic gorge with trails and waterfalls | 7.5 | Regional/municipal info | Karst landscapes and hiking near the Slovenian border (day‑trip). ([roughguides.com](https://www.roughguides.com/italy/trips/trieste-hiking-culture-trip/?utm_source=openai)) |
+
+Additional attraction references used for selection/context: Fodor’s Trieste sights; Lonely Planet’s “Top things to do in and around Trieste”; Rough Guides Trieste overview; Savoring Italy “Things to do in Trieste”; Italy With an Italian “Things to do in Trieste”; ItiMaker first‑timer itinerary; Nomads Travel Guide (San Giusto page). ([fodors.com](https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/trieste/things-to-do/sights?utm_source=openai))
+
+Table 3 — Highly rated restaurants (highest rated first)
+
+| Name | Address | Website | Rating (source) | Cuisine/description | Distance from center (mi) | Nearby attractions |
+|---|---|---|---|---|---:|---|
+| Antica Trattoria Suban | Via Emilio Comici 2, 34128 | suban.it | 9.4/10 (Google via Gastroranking) | Historic Triestine/Karst cooking; game and roasts | 1.1 | San Giusto Castle; Cathedral ([suban.it](https://www.suban.it/en/homepage-suban/?utm_source=openai)) |
+| Chimera di Bacco | Via del Pane 2, 34121 | chimeradibacco.com | 9.4/10 (TheFork) | Creative Italian/seafood with strong wine list | 0.2 | Piazza della Borsa; Canal Grande; Roman Theatre ([thefork.com](https://www.thefork.com/restaurant/l-antiquario-r688775?utm_source=openai)) |
+| Magna Bistrò Italiano | (Centro) Trieste | TheFork listing | 9.2/10 (TheFork) | Modern Italian bistrò | 0.4 | Canal Grande; Piazza Unità ([thefork.com](https://www.thefork.com/restaurant/magna-bistro-italiano-r830743?utm_source=openai)) |
+| Osteria da Marino | Via del Ponte 5, 34121 | — (local osteria) | 4.5/5 (Google via RestaurantGuru) | Seasonal Triestine dishes; cozy Old Town spot | 0.2 | Arco di Riccardo; Roman Theatre ([restaurantguru.com](https://restaurantguru.com/Osteria-da-Marino-Trieste?utm_source=openai)) |
+| Buffet da Pepi | Via della Cassa di Risparmio 3, 34121 | buffetdapepi.it | 4.3/5 (Google via BuffetMap/aggregators) | Classic “buffet” pork specialties (boiled meats, sauerkraut, kren) | 0.2 | Piazza Unità; Canal Grande ([buffetdapepi.it](https://www.buffetdapepi.it/index-en.php?utm_source=openai)) |
+| Al Bagatto | Via Cadorna 7, 34124 | Michelin listing | — (Michelin‑selected) | Refined seafood near Piazza Unità | 0.3 | Piazza Unità; Molo Audace ([guide.michelin.com](https://guide.michelin.com/us/en/friuli-venezia-giulia/trieste/restaurant/al-bagatto?utm_source=openai)) |
+
+Notes
+- Ratings are shown as provided by the cited source (10‑point scale on TheFork/Google aggregates; 5‑point where noted). Michelin selection indicates editorial recognition rather than a numeric score.
+- Distances are walking straight‑line approximations from Piazza Unità d’Italia.
+
+Sources (Table 3)
+- Antica Trattoria Suban (site; rating via Gastroranking). ([suban.it](https://www.suban.it/en/homepage-suban/?utm_source=openai))
+- Chimera di Bacco (official; TheFork). ([chimeradibacco.com](https://chimeradibacco.com/?utm_source=openai))
+- Magna Bistrò Italiano (TheFork page). ([thefork.com](https://www.thefork.com/restaurant/magna-bistro-italiano-r830743?utm_source=openai))
+- Osteria da Marino (RestaurantGuru page for Google rating). ([restaurantguru.com](https://restaurantguru.com/Osteria-da-Marino-Trieste?utm_source=openai))
+- Buffet da Pepi (official; Google rating via BuffetMap/Wanderlog aggregate). ([buffetdapepi.it](https://www.buffetdapepi.it/index-en.php?utm_source=openai))
+- Al Bagatto (Michelin Guide page). ([guide.michelin.com](https://guide.michelin.com/us/en/friuli-venezia-giulia/trieste/restaurant/al-bagatto?utm_source=openai))
+
+How I chose and ranked items
+- Hotels: ordered strictly by recent Booking.com review scores; ties broken by location appeal and consistency across sources. ([booking.com](https://www.booking.com/reviews/it/hotel/savoiaexceslsior.html))
+- Attractions: prioritized iconic civic spaces and top‑visited museums/landmarks per official sites and major guides (Fodor’s, Lonely Planet, Rough Guides), then proximity and variety. ([fodors.com](https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/trieste/things-to-do/sights?utm_source=openai))
+- Restaurants: emphasized well‑reviewed and locally emblematic spots with current numeric ratings where possible; added a Michelin‑selected option for fine dining. ([thefork.com](https://www.thefork.com/restaurant/l-antiquario-r688775?utm_source=openai))
+
+If you’d like, I can:
+- Re‑price the hotel table for your exact dates and convert from EUR to USD using today’s rate.
+- Map each place and optimize a 2–3 day walking itinerary.

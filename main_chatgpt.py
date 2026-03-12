@@ -7,9 +7,6 @@ import environ as env
 def main():
     print("Hello from prompt chatgpt's API!")
     
-    # a pathlib.Lab variable
-    cwd = env.CURRENT_WORKING_DIRECTORY
-    
 # setup and test access
     client = OpenAI(api_key= env.OPENAI_API_KEY)
     print("OpenAI client created successfully!")

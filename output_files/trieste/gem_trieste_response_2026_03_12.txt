@@ -1,0 +1,74 @@
+Here are the three requested tables to help you plan your first trip to Trieste. The information has been synthesized from your provided list of travel sites, as well as additional hotel, restaurant, and attraction databases.
+
+### Table 1: Top 12 Hotels in Trieste
+*Ordered from highest rated to lowest rated.*
+
+| Name | Address | Rating (out of 10) | Typical Room Daily Rate in US Dollars | Proximity to Trieste Center in Miles | Member of Hotel Group / Brand | Prominent Nearby Attractions | Exposure to Noise | Has Free WiFi (Yes/No) | Has Free Breakfast (Yes/No) | Has Restaurant (Yes/No) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Grand Hotel Duchi d'Aosta** | Piazza dell'Unità d'Italia 2 | 9.4 | $250 | 0.0 | Relais & Châteaux | Piazza dell'Unità, Molo Audace | Low | Yes | Yes | Yes |
+| **Savoia Excelsior Palace** | Riva del Mandracchio 4 | 9.2 | $220 | 0.1 | Starhotels Collezione | Piazza dell'Unità, Canal Grande | Moderate | Yes | Yes | Yes |
+| **DoubleTree by Hilton Trieste** | Piazza della Repubblica 1 | 9.1 | $180 | 0.2 | Hilton Hotels | Piazza della Borsa, Roman Theatre | Low | Yes | No | Yes |
+| **The Modernist Hotel** | Corso Italia 12 | 9.0 | $160 | 0.1 | None (Independent) | Roman Theatre, Piazza della Borsa | Moderate | Yes | Yes | Yes |
+| **Solun Hotel & SPA** | Via Roma 4 | 9.0 | $170 | 0.2 | None (Independent) | Canal Grande di Trieste | Low | Yes | Yes | No |
+| **YouMe Design Place Hotel** | Via Mazzini 3 | 8.9 | $150 | 0.1 | None (Independent) | Piazza dell'Unità, Roman Theatre | Low | Yes | Yes | No |
+| **Forvm Boutique Hotel** | Via Valdirivo 31 | 8.8 | $140 | 0.3 | None (Independent) | Canal Grande, Piazza del Ponterosso | Moderate | Yes | Yes | No |
+| **Urban Hotel Design** | Androna Chiusa 4 | 8.7 | $160 | 0.2 | None (Independent) | Roman Theatre, San Giusto Hill | Low | Yes | Yes | Yes |
+| **NH Trieste** | Corso Cavour 7 | 8.5 | $130 | 0.3 | NH Hotel Group | Train Station, Canal Grande | Moderate | Yes | No | Yes |
+| **Hotel Victoria** | Via Alfredo Oriani 2 | 8.5 | $140 | 0.5 | None (Independent) | Trieste Synagogue, Viale XX Settembre | Low | Yes | Yes | No |
+| **Hotel Continentale** | Via San Nicolò 25 | 8.4 | $120 | 0.1 | None (Independent) | Canal Grande, Piazza della Borsa | Moderate | Yes | Yes | Yes |
+| **Albergo Alla Posta** | Piazza Oberdan 1 | 8.3 | $100 | 0.4 | None (Independent) | Roman Theatre, Central Station | High | Yes | Yes | No |
+
+***
+
+### Table 2: Important Attractions Near Trieste
+*Ordered from most important to least important.*
+
+| Name | Importance of Attraction | Distance from Trieste Center in Miles | Home Web Site for the Attraction | Description of Attraction | Names of Nearby Restaurants |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Piazza dell'Unità d'Italia** | 10/10 (Must-See) | 0.0 | [turismofvg.it/piazza-unita](https://www.turismofvg.it) | Known as Europe's largest sea-facing square, featuring magnificent 19th-century Austro-Hungarian architecture. | Harry's Piccolo, Caffè degli Specchi, Al Bagatto |
+| **Miramare Castle** | 10/10 (Must-See) | 5.0 | [castello-miramare.it](https://www.castello-miramare.it) | A stunning 19th-century white stone castle built on a cliff over the sea for Archduke Ferdinand Maximilian of Habsburg. | Le Vele, Ristorante Principe di Metternich |
+| **Castello di San Giusto** | 9/10 (Highly Recommended) | 0.5 | [castellodisangiustotrieste.it](http://www.castellodisangiustotrieste.it) | A 15th-century fortress offering panoramic views of the city and the Gulf of Trieste, housing a historical museum. | Antica Trattoria Suban, Trattoria Nerodiseppia |
+| **Canal Grande di Trieste** | 9/10 (Highly Recommended) | 0.2 | [turismofvg.it/canal-grande](https://www.turismofvg.it) | A picturesque navigable waterway built in the 18th century to let boats reach the city center, lined with cafes and palaces. | Vecio Buffet Marascutti, Caffè Stella Polare |
+| **Roman Theatre** | 8/10 (Important) | 0.2 | [turismofvg.it/teatro-romano](https://www.turismofvg.it) | Impressive ancient Roman amphitheater dating back to the 1st century AD, nestled at the foot of San Giusto hill. | Buffet da Pepi, Chimera di Bacco |
+| **Grotta Gigante** | 8/10 (Important) | 8.0 | [grottagigante.it](https://www.grottagigante.it) | One of the largest tourist caves in the world, featuring massive stalactites and stalagmites in the Italian Karst region. | Trattoria Rampa, Ristorante Falesie |
+| **Risiera di San Sabba** | 7/10 (Historical Significance) | 3.0 | [risierasansabba.it](http://www.risierasansabba.it) | A former rice-husking facility that was converted into a WWII concentration camp; now a solemn national monument and museum. | Pizzeria Il Melone, Trattoria da Giovanni |
+| **Cattedrale di San Giusto** | 7/10 (Historical/Cultural) | 0.5 | [turismofvg.it/cattedrale](https://www.turismofvg.it) | Trieste's main Catholic cathedral, created by joining two older churches, featuring beautiful 12th-century Byzantine mosaics. | Hostaria G.I., Trattoria Nerodiseppia |
+
+***
+
+### Table 3: Highly-Rated Restaurants Near Trieste
+*Ordered from highest rating to lowest rating.*
+
+| Name | Address | Home Web Site | Rating of the Restaurant | Description of Cuisine | Distance from Trieste Center in Miles | Names of Nearby Attractions |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Harry's Piccolo** | Piazza dell'Unità d'Italia 2 | [harrystrieste.it/piccolo](https://www.harrystrieste.it/piccolo) | 9.8 (2 Michelin Stars) | High-end contemporary Italian fine dining focusing on local flavors and extreme culinary precision. | 0.0 | Piazza dell'Unità d'Italia, Molo Audace |
+| **Chimera di Bacco** | Via del Pane 2 | [chimeradibacco.com](https://chimeradibacco.com) | 9.5 | Refined, upscale seafood and traditional Italian meat dishes served in a romantic, alleyway setting. | 0.1 | Roman Theatre, Piazza della Borsa |
+| **Ristorante Al Bagatto** | Via Luigi Cadorna 7 | [albagatto.it](http://www.albagatto.it) | 9.3 | A long-standing, historic establishment known for exceptional, elegant Adriatic seafood preparations. | 0.2 | Piazza dell'Unità, Museo Revoltella |
+| **Antica Trattoria Suban** | Via Emilio Comici 2 | [suban.it](http://www.suban.it) | 9.1 | Historic 19th-century restaurant serving authentic Triestine-Austro-Hungarian meat dishes and stews. | 2.5 | San Giusto Hill, Farneto Park |
+| **Trattoria Nerodiseppia** | Via Luigi Cadorna 23 | [nerodiseppiatrieste.it](http://www.nerodiseppiatrieste.it) | 9.0 | Classic, unpretentious seafood spot famous for fresh fish, pasta, and naturally, cuttlefish in black ink. | 0.3 | Museo Revoltella, Trieste Waterfront |
+| **Buffet da Pepi** | Via della Cassa di Risparmio 3 | [buffetdapepi.it](http://www.buffetdapepi.it) | 8.8 | Iconic, historic "buffet" serving hearty Austro-Hungarian boiled pork, sausages, mustard, and sauerkraut. | 0.1 | Piazza della Borsa, Roman Theatre |
+| **Osteria I Tre Magnoni** | Via dell'Eremo 243 | [itremagnoni.com](http://www.itremagnoni.com) | 8.7 | A cozy, slightly out-of-the-way osteria loved by locals for its creative seafood dishes and great local wine list. | 3.0 | Villa Revoltella Park |
+| **Vecio Buffet Marascutti** | Via Cesare Battisti 2/B | [facebook.com/marascutti](https://www.facebook.com/veciomarascutti/) | 8.5 | A traditional Triestine eatery famed for mixed boiled meats, goulash, and comforting regional home cooking. | 0.3 | Canal Grande, Viale XX Settembre |
+
+***
+
+### Sources Used
+
+**Provided Sources:**
+*   [Fodor's Travel: Trieste](https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/trieste)
+*   [Italy Review: Trieste](https://www.italyreview.com/trieste.html)
+*   [Valentina's Travel Guide: Trieste](https://www.valentinastravelguide.com/city-of-trieste-italy/)
+*   [TripAdvisor: Trieste Vacations](https://www.tripadvisor.com/Tourism-g187813-Trieste_Province_of_Trieste_Friuli_Venezia_Giulia-Vacations.html)
+*   [Lonely Planet: Trieste](https://www.lonelyplanet.com/destinations/italy/friuli-venezia-giulia/trieste)
+*   [Italy with an Italian: Things to do in Trieste](https://italywithanitalian.com/things-to-do-in-trieste/)
+*   [Nomads Travel Guide: Trieste](https://www.nomads-travel-guide.com/city/trieste/)
+*   [Rough Guides: Trieste & Around](https://www.roughguides.com/italy/friuli-venezia-giulia/trieste-around/)
+*   [Itimaker: Trieste Itinerary](https://www.itimaker.com/blog/trieste-itinerary-for-first-timers)
+*   [Savoring Italy: Things to do in Trieste](https://www.savoringitaly.com/things-to-do-in-trieste/)
+*   [Italia-Italy: Trieste Province](https://www.italia-italy.org/en/28_1-regione-friuli_venezia_giulia/comuni-provincia-trieste)
+*   [Solo Sophie: Trieste Italy](https://www.solosophie.com/trieste-italy/)
+
+**Additional Sources Consulted:**
+*   [Booking.com - Trieste Hotels](https://www.booking.com/city/it/trieste.html) *(Used for cross-referencing daily rates, noise exposure, and amenities)*
+*   [The Michelin Guide - Trieste](https://guide.michelin.com/en/friuli-venezia-giulia/trieste/restaurants) *(Used for restaurant dining ratings, including Harry's Piccolo)*
+*   [Turismo FVG - Official Tourism Board of Friuli Venezia Giulia](https://www.turismofvg.it/locality/trieste) *(Used for official attraction web addresses, operating status, and historical data)*

@@ -11,7 +11,7 @@ cwd = env.CURRENT_WORKING_DIR
 def read_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
-
+    
 # ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -20,8 +20,8 @@ print()
 print("OpenAI client registered.\n")
 print()
 
-content = read_file(env.GUB_FILE_INPUT_ADDR)
-question = env.QUESTION
+content = read_file(env.TRIESTE_FILE_INPUT_ADDR)
+question = env.QUESTION_TRIESTE
 
 response = client.responses.create(
         model= "gpt-5",
@@ -51,7 +51,7 @@ response = client.responses.create(
 
 print(f"\n{response.output_text}")
 
-out_address = env.GUB_OUTPUT_TXT_ADDR
+out_address = env.TRIESTE_OUTPUT_TXT_ADDR
 with open(out_address, 'w') as out_file:
     out_file.write(response.output_text)
 

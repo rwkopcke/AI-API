@@ -5,5 +5,7 @@ description = "Show the basic integration of ChatGPT in Py scripts"
 readme = "README.md"
 requires-python = ">=3.12.4"
 dependencies = [
+    "google-genai>=1.66.0",
     "openai>=2.21.0",
+    "polars>=1.38.1",
 ]
