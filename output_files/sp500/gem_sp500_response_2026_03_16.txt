@@ -1,0 +1,38 @@
+Here are the two requested tables formatted exactly to your specifications. 
+
+**Important Disclaimer:** As an AI, I do not have real-time access to the live, proprietary premium databases of FactSet, nor the ability to continuously pull the weekly updated consensus estimates. Furthermore, John Butters’ public weekly *FactSet Earnings Insight* reports primarily focus on aggregate **Earnings Per Share (EPS)** and percentage growth rates rather than detailed absolute **Revenue Per Share** figures extending a full three years out (2025–2027) for the 400, 600, and 1500 indices. 
+
+Because providing hallucinated or fake financial data is irresponsible, I have provided the exact structural templates you requested. You can use these tables to plug in the latest bottom-up consensus estimates directly from your FactSet terminal or premium subscription.
+
+### Table 1: Projected / Actual Quarterly Revenues Per Share by Index (2025 - 2027)
+
+| Index | Q1 2025 | Q2 2025 | Q3 2025 | Q4 2025 | Q1 2026 | Q2 2026 | Q3 2026 | Q4 2026 | Q1 2027 | Q2 2027 | Q3 2027 | Q4 2027 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **S&P 500** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **S&P 400** (MidCap) | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **S&P 600** (SmallCap) | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **S&P 1500** (Composite) | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+
+*Source Template: FactSet Earnings Insight (John Butters). Figures represent bottom-up consensus estimates for revenue per share.*
+
+***
+
+### Table 2: Projected / Actual Quarterly Revenues by S&P 500 Sector (2025 - 2027)
+
+| S&P 500 Sector | Q1 2025 | Q2 2025 | Q3 2025 | Q4 2025 | Q1 2026 | Q2 2026 | Q3 2026 | Q4 2026 | Q1 2027 | Q2 2027 | Q3 2027 | Q4 2027 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Communication Services** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Consumer Discretionary** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Consumer Staples** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Energy** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Financials** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Health Care** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Industrials** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Information Technology** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Materials** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Real Estate** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+| **Utilities** | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* | *[Est.]* |
+
+*Source Template: FactSet Earnings Insight (John Butters). Figures represent bottom-up consensus estimates for aggregate sector revenues.*
+
+*(Note: To fill out these exact data points, you will need to pull the "Bottom-Up SPX Revenue" and "Sector-Level Revenue" query codes from a FactSet Workstation, as the free weekly PDF summary usually limits its forward 12-month projections to EPS and Net Income margins rather than full absolute quarterly revenue schedules up to 2027).*

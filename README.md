@@ -8,6 +8,7 @@ A. `main_chatgpt.py` - explore
     - https://python.useinstructor.com/integrations/openai-responses/
     - https://github.com/Jaimboh/OpenAI-Responses-API/blob/main/06-web-search.py
     - https://medium.com/@odhitom09/openai-responses-api-a-comprehensive-guide-ad546132b2ed
+    - https://developers.openai.com/api/reference/python/resources/responses/methods/retrieve
 
 B. `main_chat_gub.py` - working script
 
@@ -24,6 +25,15 @@ E. `main_gemini` - explore
     - gemini api how to provided input file to a request
 
 F. `main_gemini_sp.py` - working script
+
+    - NB: the three prompts yield no results in this program
+    - denied access to SP data. 
+    - The three prompts do yield results in the web tool (thinking, not fast)
+    - The web tool's setting, thinking, might default to high
+        - https://ai.google.dev/gemini-api/docs/thinking
+    - The results here suggest using FactSet (see III.G below)
+    - When I prompted Gemini to use FactSet in the API and on the web,
+    - only the web tool produced results. 
 
 G. `main_gemini_trieste.py` - working script 
 
