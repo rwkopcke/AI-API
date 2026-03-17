@@ -3,15 +3,18 @@
 
 ## 0. Introduction
 
-A. The `main` programs product .txt output in markdown formats
+A. The `main` programs produces .txt output in markdown formats
 
 B. The Web prompts and the API prompts produce different responses.
+
     - See I.F
 
 C. To convert the response documents to .html documents
+
     - Both the following programs were created by ChatGPT
     - `pretty-markdown-viewer.html` produces .webarchive files from the markdowns
     - `webarchive_to_html.py` converts to html, producing a file
+
         - To create this program:
             - Prompt: "How do I open a local webarchive file in Win 11"
             - Then agree to Chat's offer to write the code in python
