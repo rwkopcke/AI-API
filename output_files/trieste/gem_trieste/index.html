@@ -1,0 +1,744 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gem_trieste_response_2026_03_11.md - Markdown Viewer</title>
+  <script src="assets/assets/assets/marked.min.js"></script>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --paper: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --border-strong: #9ca3af;
+      --code-bg: #f3f4f6;
+      --quote-bg: #f9fafb;
+      --link: #0f62fe;
+      --shadow: 0 10px 30px rgba(0,0,0,0.08);
+    }
+
+    html {
+      font-size: 18px;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem 1.25rem 3rem;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      padding: 1rem 1.1rem;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .toolbar-left {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+    }
+
+    .title {
+      font-size: 1rem;
+      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+
+    input[type="file"] {
+      font: inherit;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      color: var(--text);
+      padding: 0.45rem 0.55rem;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    button {
+      appearance: none;
+      border: 1px solid var(--border-strong);
+      background: #fff;
+      color: var(--text);
+      border-radius: 10px;
+      padding: 0.58rem 0.9rem;
+      font-size: 0.95rem;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+
+    button:hover {
+      background: #f8fafc;
+    }
+
+    .paper {
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 2.5rem 3rem;
+      overflow-wrap: break-word;
+    }
+
+    #content > *:first-child {
+      margin-top: 0;
+    }
+
+    #content > *:last-child {
+      margin-bottom: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      line-height: 1.25;
+      color: #111827;
+      margin-top: 2em;
+      margin-bottom: 0.65em;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 1.65rem;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 0.25rem;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+    }
+
+    p, ul, ol, blockquote, table, pre {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+
+    li + li {
+      margin-top: 0.3rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+
+    blockquote {
+      margin-left: 0;
+      padding: 0.9rem 1rem;
+      background: var(--quote-bg);
+      border-left: 5px solid var(--border-strong);
+      color: #374151;
+      border-radius: 8px;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.92em;
+      background: var(--code-bg);
+      padding: 0.16rem 0.38rem;
+      border-radius: 6px;
+    }
+
+    pre {
+      background: var(--code-bg);
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+      overflow-x: auto;
+    }
+
+    pre code {
+      background: transparent;
+      padding: 0;
+      border-radius: 0;
+      font-size: 0.9rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.98rem;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+      background: white;
+    }
+
+    thead th {
+      background: #f3f4f6;
+      color: #111827;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      font-weight: 700;
+      border-bottom: 2px solid var(--border-strong);
+    }
+
+    th, td {
+      padding: 0.8rem 0.9rem;
+      border-bottom: 1px solid #e5e7eb;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #fcfcfd;
+    }
+
+    tbody tr:hover {
+      background: #f9fafb;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    @media (max-width: 700px) {
+      html {
+        font-size: 17px;
+      }
+
+      .paper {
+        padding: 1.4rem 1rem;
+        border-radius: 14px;
+      }
+
+      .toolbar {
+        padding: 0.85rem;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+
+    @media print {
+      :root {
+        --bg: #ffffff;
+        --paper: #ffffff;
+        --text: #000000;
+        --muted: #444444;
+        --border: #bdbdbd;
+        --border-strong: #888888;
+        --code-bg: #f6f6f6;
+        --quote-bg: #fafafa;
+        --link: #000000;
+        --shadow: none;
+      }
+
+      html {
+        font-size: 12pt;
+      }
+
+      body {
+        background: #ffffff;
+        padding: 0;
+        margin: 0;
+      }
+
+      .toolbar {
+        display: none !important;
+      }
+
+      .wrap {
+        max-width: none;
+        margin: 0;
+      }
+
+      .paper {
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      h1, h2, h3, h4 {
+        page-break-after: avoid;
+      }
+
+      table, pre, blockquote, img {
+        page-break-inside: avoid;
+      }
+
+      p, li {
+        orphans: 3;
+        widows: 3;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="toolbar">
+      <div class="toolbar-left">
+        <div>
+          <div class="title">Pretty Markdown Viewer</div>
+          <div class="subtle">Open a local .md file and read it with clean formatting</div>
+        </div>
+        <input type="file" id="fileInput" accept=".md,.markdown,.txt">
+      </div>
+      <button onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <div class="paper">
+      <div id="content" class=""><p>Welcome to Trieste! As a first-time visitor, you are in for a treat. Trieste is a beautiful, deeply historic port city with a unique blend of Italian, Austro-Hungarian, and Slovenian influences. </p>
+<p>Below are the three tables you requested to help you plan your trip, followed by the specific sources used to compile each table, including the URLs you provided and additional resources.</p>
+<h3>Table 1: Top 12 Hotels in Trieste</h3>
+<p><em>Ordered from highest rated to lowest rated.</em></p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Address</th>
+<th align="left">Rating (out of 10)</th>
+<th align="left">Typical Room Rate (USD)</th>
+<th align="left">Distance to Center (miles)</th>
+<th align="left">Hotel Group Brand</th>
+<th align="left">Prominent Nearby Attractions</th>
+<th align="left">Exposure to Noise</th>
+<th align="left">Free WiFi</th>
+<th align="left">Free Breakfast</th>
+<th align="left">Restaurant</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Grand Hotel Duchi d'Aosta</strong></td>
+<td align="left">Piazza dell'Unità d'Italia 2/1</td>
+<td align="left">9.5</td>
+<td align="left">$280</td>
+<td align="left">0.0</td>
+<td align="left">Relais &amp; Châteaux</td>
+<td align="left">Piazza Unità d'Italia, Canal Grande</td>
+<td align="left">Low (Soundproofed)</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">Yes (Harry's Piccolo)</td>
+</tr>
+<tr>
+<td align="left"><strong>Savoia Excelsior Palace</strong></td>
+<td align="left">Riva del Mandracchio 4</td>
+<td align="left">9.3</td>
+<td align="left">$230</td>
+<td align="left">0.2</td>
+<td align="left">Starhotels Collezione</td>
+<td align="left">Seafront, Piazza Unità d'Italia</td>
+<td align="left">Moderate</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+</tr>
+<tr>
+<td align="left"><strong>The Modernist Hotel</strong></td>
+<td align="left">Corso Italia 12</td>
+<td align="left">9.2</td>
+<td align="left">$175</td>
+<td align="left">0.1</td>
+<td align="left">Independent</td>
+<td align="left">Roman Theatre, Piazza della Borsa</td>
+<td align="left">Low</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+</tr>
+<tr>
+<td align="left"><strong>DoubleTree by Hilton Trieste</strong></td>
+<td align="left">Piazza della Repubblica 1</td>
+<td align="left">9.1</td>
+<td align="left">$190</td>
+<td align="left">0.2</td>
+<td align="left">Hilton</td>
+<td align="left">Canal Grande, Roman Theatre</td>
+<td align="left">Low</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+<td align="left">Yes</td>
+</tr>
+<tr>
+<td align="left"><strong>Forvm Boutique Hotel</strong></td>
+<td align="left">Via Valdirivo 31</td>
+<td align="left">9.0</td>
+<td align="left">$150</td>
+<td align="left">0.3</td>
+<td align="left">Independent</td>
+<td align="left">Canal Grande, Train Station</td>
+<td align="left">Low</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+</tr>
+<tr>
+<td align="left"><strong>Hotel Victoria</strong></td>
+<td align="left">Via Alfredo Oriani 2</td>
+<td align="left">8.9</td>
+<td align="left">$145</td>
+<td align="left">0.4</td>
+<td align="left">Independent</td>
+<td align="left">Trieste Synagogue, Viale XX Settembre</td>
+<td align="left">Low</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+</tr>
+<tr>
+<td align="left"><strong>YouMe Design Place Hotel</strong></td>
+<td align="left">Via del Mazzini 3</td>
+<td align="left">8.8</td>
+<td align="left">$160</td>
+<td align="left">0.1</td>
+<td align="left">Independent</td>
+<td align="left">Piazza Unità d'Italia, San Giusto</td>
+<td align="left">Low</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+</tr>
+<tr>
+<td align="left"><strong>Hotel Continentale</strong></td>
+<td align="left">Via San Nicolò 25</td>
+<td align="left">8.7</td>
+<td align="left">$140</td>
+<td align="left">0.2</td>
+<td align="left">Independent</td>
+<td align="left">Canal Grande, James Joyce Statue</td>
+<td align="left">Moderate</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+</tr>
+<tr>
+<td align="left"><strong>Urban Hotel Design</strong></td>
+<td align="left">Via Androna Chiusa 4</td>
+<td align="left">8.6</td>
+<td align="left">$150</td>
+<td align="left">0.1</td>
+<td align="left">Independent</td>
+<td align="left">Roman Theatre, Piazza Unità</td>
+<td align="left">Low</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+</tr>
+<tr>
+<td align="left"><strong>NH Trieste</strong></td>
+<td align="left">Corso Cavour 7</td>
+<td align="left">8.5</td>
+<td align="left">$130</td>
+<td align="left">0.3</td>
+<td align="left">NH Hotels</td>
+<td align="left">Train Station, Canal Grande</td>
+<td align="left">Moderate</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+<td align="left">Yes</td>
+</tr>
+<tr>
+<td align="left"><strong>Albergo Alla Posta</strong></td>
+<td align="left">Piazza Oberdan 1</td>
+<td align="left">8.4</td>
+<td align="left">$110</td>
+<td align="left">0.4</td>
+<td align="left">Independent</td>
+<td align="left">Roman Theatre, Tram di Opicina</td>
+<td align="left">Moderate</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">No</td>
+</tr>
+<tr>
+<td align="left"><strong>Hotel Roma</strong></td>
+<td align="left">Via Carlo Ghega 7</td>
+<td align="left">8.2</td>
+<td align="left">$95</td>
+<td align="left">0.4</td>
+<td align="left">Independent</td>
+<td align="left">Train Station, Old Port</td>
+<td align="left">Moderate</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+<td align="left">Yes</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>Table 2: Important Attractions Near Trieste</h3>
+<p><em>Ordered from most important to least important.</em></p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Importance of Attraction</th>
+<th align="left">Distance from Center (miles)</th>
+<th align="left">Home Website</th>
+<th align="left">Description</th>
+<th align="left">Nearby Restaurants</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Piazza Unità d'Italia</strong></td>
+<td align="left">1 - Must-See</td>
+<td align="left">0.0</td>
+<td align="left">N/A (Public Square)</td>
+<td align="left">Europe's largest sea-facing public square, surrounded by majestic Austro-Hungarian architecture.</td>
+<td align="left">Harry's Piccolo, Caffè degli Specchi</td>
+</tr>
+<tr>
+<td align="left"><strong>Miramare Castle</strong></td>
+<td align="left">2 - Must-See</td>
+<td align="left">4.5</td>
+<td align="left">castello-miramare.it</td>
+<td align="left">A stunning 19th-century castle built on a cliff overlooking the sea by Archduke Maximilian of Habsburg.</td>
+<td align="left">Le Vele, Ristorante Tre Merli</td>
+</tr>
+<tr>
+<td align="left"><strong>San Giusto Castle &amp; Cathedral</strong></td>
+<td align="left">3 - High</td>
+<td align="left">0.3</td>
+<td align="left">castellodisan-giusto.it</td>
+<td align="left">A 15th-century fortress and beautifully mosaic-lined cathedral perched on the hill overlooking the city.</td>
+<td align="left">Trattoria Nerodiseppia, Al Bragozzo</td>
+</tr>
+<tr>
+<td align="left"><strong>Canal Grande di Trieste</strong></td>
+<td align="left">4 - High</td>
+<td align="left">0.2</td>
+<td align="left">N/A (Public Canal)</td>
+<td align="left">A picturesque 18th-century navigable canal surrounded by historic palaces, cafes, and historic churches.</td>
+<td align="left">Buffet da Pepi, Osteria I Ferri</td>
+</tr>
+<tr>
+<td align="left"><strong>Roman Theatre</strong></td>
+<td align="left">5 - High</td>
+<td align="left">0.1</td>
+<td align="left">N/A (Historical Site)</td>
+<td align="left">Striking remains of a 1st-century Roman amphitheater integrated right into the middle of the modern city streets.</td>
+<td align="left">Al Bagatto, Chimera di Bacco</td>
+</tr>
+<tr>
+<td align="left"><strong>Grotta Gigante</strong></td>
+<td align="left">6 - Medium</td>
+<td align="left">6.0</td>
+<td align="left">grottagigante.it</td>
+<td align="left">One of the largest tourist caves in the world, featuring massive stalactites and stalagmites.</td>
+<td align="left">Osteria de l'Oca (nearby Opicina)</td>
+</tr>
+<tr>
+<td align="left"><strong>Risiera di San Sabba</strong></td>
+<td align="left">7 - Medium</td>
+<td align="left">2.5</td>
+<td align="left">risierasansabba.it</td>
+<td align="left">A former rice-husking facility that became a WWII concentration camp; now a deeply moving museum and memorial.</td>
+<td align="left">Antica Trattoria Suban</td>
+</tr>
+<tr>
+<td align="left"><strong>Faro della Vittoria</strong></td>
+<td align="left">8 - Low</td>
+<td align="left">2.0</td>
+<td align="left">farodellavittoria.it</td>
+<td align="left">A towering, iconic 1920s lighthouse and WWI memorial offering panoramic views of the Gulf of Trieste.</td>
+<td align="left">Ristorante Tre Merli</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>Table 3: Highly-Rated Restaurants Near Trieste</h3>
+<p><em>Ordered from highest rating to lowest rating.</em></p>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="left">Address</th>
+<th align="left">Home Website</th>
+<th align="left">Rating (out of 5)</th>
+<th align="left">Description of Cuisine</th>
+<th align="left">Distance from Center (miles)</th>
+<th align="left">Nearby Attractions</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Harry's Piccolo</strong></td>
+<td align="left">Piazza dell'Unità d'Italia 2/1</td>
+<td align="left">harrystrieste.it</td>
+<td align="left">4.9</td>
+<td align="left">2 Michelin Star gourmet dining; highly inventive modern Italian and European cuisine.</td>
+<td align="left">0.0</td>
+<td align="left">Piazza Unità d'Italia</td>
+</tr>
+<tr>
+<td align="left"><strong>Trattoria Nerodiseppia</strong></td>
+<td align="left">Via Luigi Cadorna 23</td>
+<td align="left">nerodiseppiatrieste.it</td>
+<td align="left">4.8</td>
+<td align="left">High-quality traditional Triestine seafood, famous for its cuttlefish ink pasta.</td>
+<td align="left">0.3</td>
+<td align="left">San Giusto Castle, Maritime Museum</td>
+</tr>
+<tr>
+<td align="left"><strong>Antica Trattoria Suban</strong></td>
+<td align="left">Via Emilio Comici 2</td>
+<td align="left">suban.it</td>
+<td align="left">4.7</td>
+<td align="left">Historic family-run eatery serving unique meat-focused Central European &amp; Slavic-influenced local dishes.</td>
+<td align="left">2.5</td>
+<td align="left">Risiera di San Sabba</td>
+</tr>
+<tr>
+<td align="left"><strong>Al Bagatto</strong></td>
+<td align="left">Via Luigi Cadorna 7</td>
+<td align="left">albagatto.it</td>
+<td align="left">4.6</td>
+<td align="left">Upscale, elegant dining experience focused heavily on fresh, locally caught Adriatic seafood.</td>
+<td align="left">0.2</td>
+<td align="left">Roman Theatre, Museo Revoltella</td>
+</tr>
+<tr>
+<td align="left"><strong>Chimera di Bacco</strong></td>
+<td align="left">Via del Pane 2</td>
+<td align="left">chimeradibacco.com</td>
+<td align="left">4.5</td>
+<td align="left">A cozy, sophisticated wine bar and restaurant offering refined gourmet Italian and local dishes.</td>
+<td align="left">0.1</td>
+<td align="left">Roman Theatre, Arco di Riccardo</td>
+</tr>
+<tr>
+<td align="left"><strong>Buffet da Pepi</strong></td>
+<td align="left">Via Cassa di Risparmio 3</td>
+<td align="left">buffetdapepi.it</td>
+<td align="left">4.4</td>
+<td align="left">Iconic Triestine fast-casual institution serving boiled pork (caldaia), sauerkraut, and local beer.</td>
+<td align="left">0.1</td>
+<td align="left">Piazza della Borsa, Canal Grande</td>
+</tr>
+<tr>
+<td align="left"><strong>Osteria I Ferri</strong></td>
+<td align="left">Via San Lazzaro 9</td>
+<td align="left">N/A</td>
+<td align="left">4.3</td>
+<td align="left">Rustic, casual osteria offering great wines and authentic, simple Mediterranean and seafood plates.</td>
+<td align="left">0.3</td>
+<td align="left">Canal Grande, Sant'Antonio Taumaturgo</td>
+</tr>
+<tr>
+<td align="left"><strong>Ristorante Tre Merli</strong></td>
+<td align="left">Viale Miramare 44</td>
+<td align="left">tremerli.it</td>
+<td align="left">4.2</td>
+<td align="left">Scenic waterfront dining specializing in classic Italian seafood dishes with a fantastic sea view.</td>
+<td align="left">1.8</td>
+<td align="left">Faro della Vittoria, Barcola Promenade</td>
+</tr>
+</tbody></table>
+<hr>
+<h3>Sources Used to Make Each Table</h3>
+<p>Below is the list of web addresses I utilized to construct these tables, categorized by the table they informed. It includes the required sources you uploaded and additional sites I searched.</p>
+<p><strong>Sources used for Table 1 (Hotels):</strong></p>
+<ul>
+<li><em>User Uploaded:</em> <a href="https://www.tripadvisor.com/Tourism-g187813-Trieste_Province_of_Trieste_Friuli_Venezia_Giulia-Vacations.html">https://www.tripadvisor.com/Tourism-g187813-Trieste_Province_of_Trieste_Friuli_Venezia_Giulia-Vacations.html</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.italyreview.com/trieste.html">https://www.italyreview.com/trieste.html</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/trieste">https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/trieste</a></li>
+<li><em>Additional Site Searched:</em> <a href="https://www.booking.com/city/it/trieste.html">https://www.booking.com/city/it/trieste.html</a> (Used to cross-reference USD pricing, distances to center, WiFi/breakfast amenities, and noise levels)</li>
+<li><em>Additional Site Searched:</em> <a href="https://www.hilton.com/en/hotels/trsdiqi-doubletree-trieste/">https://www.hilton.com/en/hotels/trsdiqi-doubletree-trieste/</a> (Used to verify Hilton brand affiliation and amenities)</li>
+<li><em>Additional Site Searched:</em> <a href="https://www.starhotels.com/en/our-hotels/savoia-excelsior-palace-trieste/">https://www.starhotels.com/en/our-hotels/savoia-excelsior-palace-trieste/</a> (Used to verify Starhotels brand affiliation)</li>
+</ul>
+<p><strong>Sources used for Table 2 (Attractions):</strong></p>
+<ul>
+<li><em>User Uploaded:</em> <a href="https://www.lonelyplanet.com/destinations/italy/friuli-venezia-giulia/trieste">https://www.lonelyplanet.com/destinations/italy/friuli-venezia-giulia/trieste</a></li>
+<li><em>User Uploaded:</em> <a href="https://italywithanitalian.com/things-to-do-in-trieste/">https://italywithanitalian.com/things-to-do-in-trieste/</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.roughguides.com/italy/friuli-venezia-giulia/trieste-around/">https://www.roughguides.com/italy/friuli-venezia-giulia/trieste-around/</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.savoringitaly.com/things-to-do-in-trieste/">https://www.savoringitaly.com/things-to-do-in-trieste/</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.nomads-travel-guide.com/city/trieste/">https://www.nomads-travel-guide.com/city/trieste/</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.valentinastravelguide.com/city-of-trieste-italy/">https://www.valentinastravelguide.com/city-of-trieste-italy/</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.solosophie.com/trieste-italy/">https://www.solosophie.com/trieste-italy/</a></li>
+<li><em>User Uploaded:</em> <a href="https://www.italia-italy.org/en/28_1-regione-friuli_venezia_giulia/comuni-provincia-trieste">https://www.italia-italy.org/en/28_1-regione-friuli_venezia_giulia/comuni-provincia-trieste</a></li>
+<li><em>Additional Site Searched:</em> <a href="https://castello-miramare.it/en/">https://castello-miramare.it/en/</a> (Official site used for Miramare Castle)</li>
+<li><em>Additional Site Searched:</em> <a href="https://www.grottagigante.it/en/">https://www.grottagigante.it/en/</a> (Official site used for Grotta Gigante)</li>
+<li><em>Additional Site Searched:</em> <a href="https://risierasansabba.it/en/">https://risierasansabba.it/en/</a> (Official site used for Risiera di San Sabba)</li>
+</ul>
+<p><strong>Sources used for Table 3 (Restaurants):</strong></p>
+<ul>
+<li><em>User Uploaded:</em> <a href="https://www.tripadvisor.com/Tourism-g187813-Trieste_Province_of_Trieste_Friuli_Venezia_Giulia-Vacations.html">https://www.tripadvisor.com/Tourism-g187813-Trieste_Province_of_Trieste_Friuli_Venezia_Giulia-Vacations.html</a> (Used for local dining ratings and geographic proximity references)</li>
+<li><em>User Uploaded:</em> <a href="https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/trieste">https://www.fodors.com/world/europe/italy/the-veneto-and-friuli-venezia-giulia/places/trieste</a> (Used to identify prominent culinary hotspots like Suban and Buffet da Pepi)</li>
+<li><em>User Uploaded:</em> <a href="https://www.itimaker.com/blog/trieste-itinerary-for-first-timers">https://www.itimaker.com/blog/trieste-itinerary-for-first-timers</a> (Used for general culinary planning context)</li>
+<li><em>Additional Site Searched:</em> <a href="https://guide.michelin.com/en/friuli-venezia-giulia/trieste/restaurants">https://guide.michelin.com/en/friuli-venezia-giulia/trieste/restaurants</a> (Used to verify Harry's Piccolo Michelin star rating and cuisine description)</li>
+<li><em>Additional Site Searched:</em> <a href="https://www.harrystrieste.it/en/">https://www.harrystrieste.it/en/</a> (Used to verify address and website)</li>
+<li><em>Additional Site Searched:</em> <a href="https://www.suban.it/en/">https://www.suban.it/en/</a> (Used to verify address and cuisine type for Antica Trattoria Suban)</li>
+</ul>
+</div>
+    </div>
+  </div>
+
+  <script>
+    const input = document.getElementById("fileInput");
+    const content = document.getElementById("content");
+
+    input.addEventListener("change", async (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const text = await file.text();
+      content.classList.remove("empty");
+      content.innerHTML = marked.parse(text);
+      document.title = file.name + " - Markdown Viewer";
+    });
+  </script>
+
+</body></html>

@@ -1,4 +1,27 @@
-# Python Prompt AI APIs
+# Python: AI APIs for ChatGPT and Gemini
+### March 16, 2026
+
+## 0. Introduction
+
+A. The `main` programs product .txt output in markdown formats
+
+B. The Web prompts and the API prompts produce different responses.
+    - See I.F
+
+C. To convert the response documents to .html documents
+    - Both the following programs were created by ChatGPT
+    - `pretty-markdown-viewer.html` produces .webarchive files from the markdowns
+    - `webarchive_to_html.py` converts to html, producing a file
+        - To create this program:
+            - Prompt: "How do I open a local webarchive file in Win 11"
+            - Then agree to Chat's offer to write the code in python
+            - Additional prompt: "yea. do the next step"
+        - With the .webarchive files in ".../Documents/"
+        - `uv run webarchive_to_html.py ".../Documents/chat_trieste.webarchive" -o ".../Documents/chat_trieste"`
+        - `uv run webarchive_to_html.py ".../Documents/gem_trieste.webarchive" -o ".../Documents/gem_trieste"`
+            - double-click `index.html` in the output file to open in the browser
+            - `assets` includes code for the .html file
+        - Copies of these output folders appear here in `output_files/trieste`
 
 ## I. Entry scripts
 
@@ -27,22 +50,28 @@ E. `main_gemini` - explore
 F. `main_gemini_sp.py` - working script
 
     - NB: the three prompts yield no results in this program
-    - denied access to SP data. 
+        - denied access to SP data
+        - cannot find the specific series in FactSet. John Butters data
     - The three prompts do yield results in the web tool (thinking, not fast)
-    - The web tool's setting, thinking, might default to high
+        - The web tool's setting, thinking, might default to high
+        - The API specified `thinking_level= 'high'`
         - https://ai.google.dev/gemini-api/docs/thinking
-    - The results here suggest using FactSet (see III.G below)
-    - When I prompted Gemini to use FactSet in the API and on the web,
-    - only the web tool produced results. 
+    - The API's response suggests using FactSet (see III.G below)
+    - I prompted Gemini to use FactSet in the API and on the web
+    - Only the web tool produced results
+    - API would not infer data from public docs, even with thinking_level= 'high'
+        - see output_files/sp_500/gem_sp500_response_2026_03_16.txt
 
 G. `main_gemini_trieste.py` - working script 
 
 H. `pretty-markdown-viewer.html` - converts .txt files to webarchives
 
     - open this file with a browser
-    - open the `response.txt` file from AI from the resulting web page
+    - open the `response` file from AI in the resulting web page
     - converts response to a webarchive and saves it
-    - webarchive can be opened as a pretty webpage by a browser
+    - webarchive can be opened as a pretty webpage by Safari
+
+I. `webarchive_to_html.py` - converts webarchive to .html for other browsers
 
 
 ## II. Prompts
@@ -81,7 +110,7 @@ Who are the candidates running for governor of the US State of Maine in 2026? Cr
     by other web addresses that show the candidate's top 5 issues.
 ```
 
-### B. `main_gemini_sp.py`
+### B. `main_gemini_sp500.py`
 
 Fetch analysts' consensus bottom-up projections of quarterly earnings for the S&P indexes:
 1. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly reported earnings per share or analysts' current consensus bottom-up projections of quarterly reported earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly reported per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
@@ -142,39 +171,25 @@ I am a tourist traveling to Trieste, Italy for the first time. Please make 3 tab
     - https://github.com/google-gemini/cookbook
     - https://ai.google.dev/gemini-api/docs
     - ...
-2. ddg search: "python prompt for gemini"
+2. duckduckgo search: "python prompt for gemini"
     - https://ai.google.dev/gemini-api/docs/prompting-strategies
     - https://projectpy.com/building-a-python-guide-for-text-generation-with/
     - ...
 
 #### E. format responses
 
-    - see I.G. above
-    - TODO: experiment with other formats for AI's response files
+1. see I.G. above
+2. TODO: experiment with other formats for AI's response files
 
 #### F. crontab
 
-1. spaces in crontab
-    - separate *, 2, *, *, and *
-    - separate a, b, c, and d
-2. a uv project may be run from any directory by using commands like b, c, and d above.
-3. `crontab -e` opens the crontab file in a vim editor.
-    - the editor opens in command mode
-    - `i` opens the insert mode, which permits editing
-    - `esc` returns to command mode
-    - in command mode, 
-        - `:w` saves the file
-        - `:q` closes the file
-        - `:wq` saves and closes
-4. In main.py(), each CLI command is a list that contains two str:
-    - first, the command itself which is the full path to `brew` (use `which brew`)
-    - second, any args `brew` requires
-5. If upgrade fails (e.g. permission for ghostscript), run `brew doctor`
+1. Does not reference this project
+2. `main_gemini_sp500.py` was the only candidate, but the API would not fetch
+3. ChatGPT (API and web tool) would not fetch for lack of an access key
 
 #### G. web addresses
 
 1. FactSet Earnings Insight Report
-
     - https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_021326.pdf
     - https://insight.factset.com
 
