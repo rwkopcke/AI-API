@@ -6,35 +6,32 @@
 A. The `main` programs produces .txt output in markdown formats
 
 B. The Web prompts and the API prompts produce different responses.
-
-    - See I.F
+1. See I.F
 
 C. To convert the response documents to .html documents
-
-    - Both the following programs were created by ChatGPT
-    - `pretty-markdown-viewer.html` produces .webarchive files from the markdowns
-    - `webarchive_to_html.py` converts to html, producing a file
-
-        - To create this program:
-            - Prompt: "How do I open a local webarchive file in Win 11"
-            - Then agree to Chat's offer to write the code in python
-            - Additional prompt: "yea. do the next step"
-        - With the .webarchive files in ".../Documents/"
-        - `uv run webarchive_to_html.py ".../Documents/chat_trieste.webarchive" -o ".../Documents/chat_trieste"`
-        - `uv run webarchive_to_html.py ".../Documents/gem_trieste.webarchive" -o ".../Documents/gem_trieste"`
-            - double-click `index.html` in the output file to open in the browser
-            - `assets` includes code for the .html file
-        - Copies of these output folders appear here in `output_files/trieste`
+1. Both the following programs were created by ChatGPT
+2. `pretty-markdown-viewer.html` produces .webarchive files from the markdowns
+3. `webarchive_to_html.py` converts to html, producing a file
+    - To create this program:
+        - Prompt: "How do I open a local webarchive file in Win 11"
+        - Then agree to Chat's offer to write the code in python
+        - Additional prompt: "yea. do the next step"
+    - With the .webarchive files in ".../Documents/"
+    - `uv run webarchive_to_html.py ".../Documents/chat_trieste.webarchive" -o ".../Documents/chat_trieste"`
+    - `uv run webarchive_to_html.py ".../Documents/gem_trieste.webarchive" -o ".../Documents/gem_trieste"`
+        - double-click `index.html` in the output file to open in the browser
+        - `assets` includes code for the .html file
+    - Copies of these output folders appear here in `output_files/trieste`
 
 ## I. Entry scripts
 
 A. `main_chatgpt.py` - explore
 
-    - https://developers.openai.com/api/docs (API pull-down menu at top of window)
-    - https://python.useinstructor.com/integrations/openai-responses/
-    - https://github.com/Jaimboh/OpenAI-Responses-API/blob/main/06-web-search.py
-    - https://medium.com/@odhitom09/openai-responses-api-a-comprehensive-guide-ad546132b2ed
-    - https://developers.openai.com/api/reference/python/resources/responses/methods/retrieve
+1. https://developers.openai.com/api/docs (API pull-down menu at top of window)
+2. https://python.useinstructor.com/integrations/openai-responses/
+3. https://github.com/Jaimboh/OpenAI-Responses-API/blob/main/06-web-search.py
+4. https://medium.com/@odhitom09/openai-responses-api-a-comprehensive-guide-ad546132b2ed
+5. https://developers.openai.com/api/reference/python/resources/responses/methods/retrieve
 
 B. `main_chat_gub.py` - working script
 
@@ -43,36 +40,33 @@ C. `main_chat_gub_report.py` - makes response more readable
 D. `main_chat_trieste.py` - working script
 
 E. `main_gemini` - explore
-
-    - https://ai.google.dev/gemini-api/docs/quickstart
-    - https://ai.google.dev/gemini-api/docs
-    - https://ai.google.dev/gemini-api/docs/tools
-    - https://ai.google.dev/gemini-api/docs/langgraph-exampl
-    - gemini api how to provided input file to a request
+1. https://ai.google.dev/gemini-api/docs/quickstart
+2. https://ai.google.dev/gemini-api/docs
+3. https://ai.google.dev/gemini-api/docs/tools
+4. https://ai.google.dev/gemini-api/docs/langgraph-exampl
+5. gemini api how to provided input file to a request
 
 F. `main_gemini_sp.py` - working script
-
-    - NB: the three prompts yield no results in this program
-        - denied access to SP data
-        - cannot find the specific series in FactSet. John Butters data
-    - The three prompts do yield results in the web tool (thinking, not fast)
-        - The web tool's setting, thinking, might default to high
-        - The API specified `thinking_level= 'high'`
-        - https://ai.google.dev/gemini-api/docs/thinking
-    - The API's response suggests using FactSet (see III.G below)
-    - I prompted Gemini to use FactSet in the API and on the web
-    - Only the web tool produced results
-    - API would not infer data from public docs, even with thinking_level= 'high'
-        - see output_files/sp_500/gem_sp500_response_2026_03_16.txt
+1. NB: the three prompts yield no results in this program
+    - denied access to SP data
+    - cannot find the specific series in FactSet. John Butters data
+2. The three prompts do yield results in the web tool (thinking, not fast)
+    - The web tool's setting, thinking, might default to high
+    - The API specified `thinking_level= 'high'`
+    - https://ai.google.dev/gemini-api/docs/thinking
+3. The API's response suggests using FactSet (see III.G below)
+4. I prompted Gemini to use FactSet in the API and on the web
+5. Only the web tool produced results
+6. API would not infer data from public docs, even with thinking_level= 'high'
+    - see output_files/sp_500/gem_sp500_response_2026_03_16.txt
 
 G. `main_gemini_trieste.py` - working script 
 
 H. `pretty-markdown-viewer.html` - converts .txt files to webarchives
-
-    - open this file with a browser
-    - open the `response` file from AI in the resulting web page
-    - converts response to a webarchive and saves it
-    - webarchive can be opened as a pretty webpage by Safari
+1. open this file with a browser
+2. open the `response` file from AI in the resulting web page
+3. converts response to a webarchive and saves it
+4. webarchive can be opened as a pretty webpage by Safari
 
 I. `webarchive_to_html.py` - converts webarchive to .html for other browsers
 
@@ -80,7 +74,6 @@ I. `webarchive_to_html.py` - converts webarchive to .html for other browsers
 ## II. Prompts
 
 ### A. `main_chat_gub.py`
-
 Fetch candidates, parties, top 5 issues, and websites for all candidates
 https://github.com/openai/openai-python for the API
 
@@ -114,14 +107,12 @@ Who are the candidates running for governor of the US State of Maine in 2026? Cr
 ```
 
 ### B. `main_gemini_sp500.py`
-
 Fetch analysts' consensus bottom-up projections of quarterly earnings for the S&P indexes:
 1. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly reported earnings per share or analysts' current consensus bottom-up projections of quarterly reported earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly reported per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
 2. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly operating earnings per share or analysts' current consensus bottom-up projections of quarterly operating earnings per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly operating earnings per share for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
 3. Please make two tables. The first table should have 12 columns and 4 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 4 rows should contain either actual quarterly revenues per share or analysts' current consensus bottom-up projections of quarterly revenues per share for the standard & poor's 500 index, 400 index, 600 index, and 1500 index for all 4 quarters for the 3 years 2025, 2026, and 2027. The second table should have 12 columns and 11 rows. The 12 columns should represent all 4 quarters for the 3 years 2025, 2026, and 2027. The 11 rows should contain quarterly actual or consensus bottom-up projections of quarterly revenues for the 11 sectors of the S&P 500 for all 4 quarters for the 3 years 025, 2026, and 2027. Please only use data from S&P Global Market Intelligence.
 
 ### C. `main_chat_trieste.py` `main_gemini_trieste.py`
-
 ```
 I am a tourist traveling to Trieste, Italy for the first time. Please make 3 tables.
     The first table should show hotels. 
@@ -153,7 +144,6 @@ I am a tourist traveling to Trieste, Italy for the first time. Please make 3 tab
     - https://realpython.com/chatgpt-api-python/
 
 #### B. openai api key
-
 1. `openai.com`
     - login to API platform (pull-down)
     - with Apple
@@ -163,12 +153,10 @@ I am a tourist traveling to Trieste, Italy for the first time. Please make 3 tab
 5. Copy and store key in `environment.py` inside the uv project file
 
 #### C. chatgpt table extractor
-
-- https://chatgpt.com/g/g-HBmy1I0iS-table-extractor
-- Extract values from PDF or images into CSV files. If there are several tables in the file, precise exactly which table (table number, title and page) you want to extract data from.
+1. https://chatgpt.com/g/g-HBmy1I0iS-table-extractor
+2. Extract values from PDF or images into CSV files. If there are several tables in the file, precise exactly which table (table number, title and page) you want to extract data from.
 
 #### D. using gemini
-
 1. duckduckgo search: "python gemini api cookbook"
     - https://ai.google.dev/gemini-api/cookbook
     - https://github.com/google-gemini/cookbook
@@ -180,18 +168,15 @@ I am a tourist traveling to Trieste, Italy for the first time. Please make 3 tab
     - ...
 
 #### E. format responses
-
 1. see I.G. above
 2. TODO: experiment with other formats for AI's response files
 
 #### F. crontab
-
 1. Does not reference this project
 2. `main_gemini_sp500.py` was the only candidate, but the API would not fetch
 3. ChatGPT (API and web tool) would not fetch for lack of an access key
 
 #### G. web addresses
-
 1. FactSet Earnings Insight Report
     - https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_021326.pdf
     - https://insight.factset.com
