@@ -69,6 +69,14 @@ H. `pretty-markdown-viewer.html` - converts .txt files to webarchives
 4. webarchive can be opened as a pretty webpage by Safari
 
 I. `webarchive_to_html.py` - converts webarchive to .html for other browsers
+1. Results appear in `output_files/trieste/...`
+    - `chat_trieste`
+    - `gem_trieste`
+2. Double-click `index.html`
+
+J. `md_to_html.py` - produces html without the intermediate .webarchive step
+1. One step instead of two to the html document
+2. But the result looks cruder than the two-step (H. & I.) procedure
 
 
 ## II. Prompts
